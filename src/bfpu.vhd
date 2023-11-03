@@ -7,7 +7,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- Entity bfpu: brainfuck processing unit
-entity tt_um_yannickreiss_bfpu is
+entity tt_um_vhdl_yannickreiss_bfpu is
   port(
     ui_in   : in  std_logic_vector(7 downto 0);
     uo_out  : out std_logic_vector(7 downto 0);
